@@ -1,0 +1,27 @@
+{
+  "name": "loan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.0",
+    "browser-sync": "^2.27.11",
+    "core-js": "^3.27.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
