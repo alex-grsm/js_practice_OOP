@@ -67,7 +67,6 @@ export default class MiniSlider extends Slider {
 
         this.bindTriggers();
         this.decorizeSlides();
-        this.hoverStop();
 
         if (this.autoplay) {
             setInterval(() => this.nextSlide(), 5000);
