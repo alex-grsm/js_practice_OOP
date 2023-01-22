@@ -79,7 +79,9 @@ class Download {
   }
   init() {
     this.btns.forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        e.stopPropagation();
         this.downloadItem(this.path);
       });
     });
